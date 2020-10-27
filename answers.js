@@ -26,7 +26,7 @@ var extra = ", så længe du spritter af, bærer mundbind når du bevæger dig r
 if (dato == 0 || dato == 6) {document.getElementById("svar1").innerHTML = yesWord1 
 	+ extra + "<br><small>Bare husk studiekort i weekenden.</small>";}
 else if (1700 <= time || time <= 700) {document.getElementById("svar1").innerHTML = yesWord1 
-	+ extra + "<br><small>Bare husk studiekort efter kl. 17.</small>";}
+	+ extra + "<br><small>Husk studiekort efter kl. 17.</small>";}
 else {document.getElementById("svar1").innerHTML = yesWord1 + extra;}
 
 // tell days since cleaning
