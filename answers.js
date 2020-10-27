@@ -20,7 +20,7 @@ var cleanDiff = date - cleanDay;
 var cleanDays = Math.floor(cleanDiff/(60*60*1000*24)*1);
 
 // extra phrase (should at least be ".")
-var extra = ", så længe du spritter af."
+var extra = ", så længe du spritter af, bærer mundbind når du bevæger dig rundt, og ikke laver mad i køkkenet."
 
 // say if Nanobar is open
 if (dato == 0 || dato == 6) {document.getElementById("svar1").innerHTML = yesWord1 
