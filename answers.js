@@ -10,9 +10,9 @@
 // var catAnswer = catAnswers[Math.floor(Math.random() * catAnswers.length)];
 
 // get the current date
-// var date = new Date();
-// var dato = date.getDay();
-// var time = date.getHours()*100 + date.getMinutes();
+var date = new Date();
+var dato = date.getDay();
+var time = date.getHours()*100 + date.getMinutes();
 
 // special days (remember, january is month 0)
 // var cleanDay = new Date(2017,10,8);
@@ -37,4 +37,6 @@ document.getElementById("svar3").innerHTML = catAnswer + ".";
 
 // Pandemic message - please figure out how to say this
 var COVID19 = "Nej, Nanobar er lukket pga. COVID-19. Vi melder ud, når der genåbnes og håber på dette kan ske tidligt i det nye år (2021)."
-document.getElementById("svar1").innerHTML = COVID19
+
+if (dato == 0 || dato == 6) {document.getElementById("svar1").innerHTML = COVID19;}
+else {document.getElementById("svar1").innerHTML = COVID19;}
