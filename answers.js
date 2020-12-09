@@ -36,5 +36,5 @@
 document.getElementById("svar3").innerHTML = catAnswer + ".";
 
 // Pandemic message - please figure out how to say this
-document.getElementById("svar1").innerHTML = "Nej, Nanobar er lukket pga. COVID-19. Vi melder ud, når der genåbnes og håber på dette kan ske tidligt i det nye år (2021)."
-
+var COVID19 = "Nej, Nanobar er lukket pga. COVID-19. Vi melder ud, når der genåbnes og håber på dette kan ske tidligt i det nye år (2021)."
+document.getElementById("svar1").innerHTML = COVID19
